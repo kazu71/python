@@ -1,4 +1,4 @@
-# raspberrypiの外付けLED制御プログラムを作ってみた
+# python program code
 
 
 #### LEDを点滅させるプログラム
