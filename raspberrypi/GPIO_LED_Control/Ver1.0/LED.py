@@ -5,12 +5,12 @@ print("system ok")
 
 
 
-# GPIOの初期化
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.OUT)
 
 try:
-    #LEDを0.5秒おきに点灯・消灯
+    #LED0.5秒間隔で点灯・消灯
     while True:
         GPIO.output(17, GPIO.HIGH)
         print("LED on")
